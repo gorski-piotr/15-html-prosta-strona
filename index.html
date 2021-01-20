@@ -10,7 +10,12 @@
 #portfolio img{
     width: 200px;
     height: auto;
-}    
+}  
+
+section {
+    padding: 30px;
+}
+
 </style>
 
 <body>
@@ -64,7 +69,24 @@
         <div id="portfolio-item"><img src="/javascript-logo_small.png" alt="JavaScript"></div>
     </section>
 
-
+<!------------ CONTACT ------------>
+<section id="contact">
+    <h4 style="margin-bottom: 10px;">Piotr Górski</h4>
+    <address>
+        Marszalkowska Street 500/1,<br>
+        Warsaw, Poland
+    </address>
+    <br>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="msg">Message:</label><br>
+        <input type="text" id="msg" name="msg" size="50"><br>
+        <button>Submit</button>
+    </form>
+</section>
 
 
 </body>
